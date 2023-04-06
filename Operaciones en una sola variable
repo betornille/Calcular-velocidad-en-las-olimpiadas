@@ -1,0 +1,14 @@
+#include<stdio.h>
+#define B 150
+int main(){
+int a, S=0, R=0, M=1, D=0;
+      printf("Introduzca el número a operar: ");
+      scanf("%d", &a);
+      S = B + a;
+      R = B - a;
+      M = B * a;
+      D = B / a;
+      printf("\nSuma: %d\nResta: %d\nMultiplicación: %d\nDivisión: %d", S, R, M, D);
+      
+	return 0;
+}
