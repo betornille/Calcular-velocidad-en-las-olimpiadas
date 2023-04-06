@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+int a, b, K, S=0, R=0, M=1, D=0;
+      printf("Introduzca su número de mayor valor: ");
+      scanf("%d", &a);
+      printf("Introduzca número a operar: ");
+      scanf("%d", &b);
+      S = b + a;
+      R = a - b;
+      M = b * a;
+      D = b / a;
+      printf("\nSuma: %d\nResta: %d\nMultiplicación: %d\nDivisión: %d", S, R, M, D);
+
+	return 0;
+}
